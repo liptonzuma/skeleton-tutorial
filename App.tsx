@@ -122,7 +122,10 @@ export default function App() {
         </Column>
       </View>
 
-      <Button title={loading ? 'Stop Loading' : 'Load'} onPress={handleLoad} />
+      <Button
+        title={loading ? 'Stop Loading' : 'Load more'}
+        onPress={handleLoad}
+      />
     </View>
   );
 }
